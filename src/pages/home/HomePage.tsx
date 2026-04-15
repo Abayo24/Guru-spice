@@ -339,7 +339,7 @@ export default function HomePage({
 								<>
 									Pure spices. Real flavour.{' '}
 									<em
-										className='font-display italic text-rust not-italic'
+										className='font-display text-rust not-italic'
 										style={{ fontStyle: 'italic' }}
 									>
 										Always.
