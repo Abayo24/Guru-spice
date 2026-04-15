@@ -80,7 +80,7 @@ export default function ShopPage({ onAdd, wished, onWish, navigate }: ShopProps)
           </div>
 
           {/* Product grid */}
-          <div className="grid grid-cols-4 gap-2.5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+          <div className="grid gap-2.5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
             {list.map((sp, i) => (
               <div
                 key={sp.id}
