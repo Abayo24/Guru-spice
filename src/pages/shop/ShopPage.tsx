@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 import { SPICES } from "@/data";
 import { PAGES, WA_NUMBER, SPICE_FILTERS, SORT_OPTIONS } from "@/constants";
 import { useReveal } from "@/hooks";
-import { Button, SectionHeader, Breadcrumb } from "@/components/ui";
+import { Button, Breadcrumb } from "@/components/ui";
 import { ProductCard } from "@/components/product";
 import { waLink, cn } from "@/utils";
 import type { SpiceFilter, SortKey } from "@/constants";

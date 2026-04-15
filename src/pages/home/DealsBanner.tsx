@@ -3,7 +3,6 @@ import { Flame, Copy, Check, ChevronLeft, ChevronRight } from "lucide-react";
 import { DEALS } from "@/data";
 import { PAGES } from "@/constants";
 import { useNotif } from "@/context/NotifContext";
-import { Button } from "@/components/ui";
 import type { DealProps } from "@/types";
 
 export function DealsBanner({ onCopy, copied, navigate }: DealProps) {

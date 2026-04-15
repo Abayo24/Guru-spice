@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Check, Gift, MessageCircle, Plus, ShoppingCart, Sparkles, X } from "lucide-react";
+import { Check, MessageCircle, Plus, ShoppingCart, Sparkles, X } from "lucide-react";
 import { HAMPERS, SPICES, WA_NUMBER } from "@/data";
 import { PAGES } from "@/constants";
 import { useReveal } from "@/hooks";

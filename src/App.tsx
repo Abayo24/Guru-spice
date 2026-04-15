@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useState } from 'react';
-import { MessageCircle } from 'lucide-react';
 
 import { PAGES, WA_NUMBER } from '@/constants';
 import { waLink } from '@/utils';
