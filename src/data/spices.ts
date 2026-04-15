@@ -8,7 +8,7 @@ export const SPICES: Spice[] = [
     desc: "Delicately sharp and earthy — ideal for light sauces, seafood and cream-based dishes.",
     longDesc: "White pepper comes from the same plant as black pepper but is processed differently, removing the outer skin for a milder, more earthy flavour. Preferred in cream sauces, white gravies and delicate seafood dishes.",
     uses: ["Sauces", "Seafood", "Soups"],
-    p50: 90, p100: 160, rating: 4.8, reviewCount: 124, inStock: true, bestseller: false,
+    p50: 250, p100: 500, rating: 4.8, reviewCount: 124, inStock: true, bestseller: false,
   },
   {
     id: 2, name: "Black Pepper", tag: "Pepper", cat: "pepper", emoji: "⚫",
@@ -16,7 +16,7 @@ export const SPICES: Spice[] = [
     desc: "Bold, piney heat. The undisputed king of every kitchen — use it on everything.",
     longDesc: "Stone-ground from premium peppercorns to preserve essential oils. Bold, piney heat with complex floral notes. There is no dish it doesn't improve.",
     uses: ["Grilling", "Marinades", "Everything"],
-    p50: 85, p100: 150, rating: 4.9, reviewCount: 312, inStock: true, bestseller: true,
+    p50: 170, p100: 340, rating: 4.9, reviewCount: 312, inStock: true, bestseller: true,
   },
   {
     id: 3, name: "Cardamom Powder", tag: "Aromatic", cat: "aromatic", emoji: "💚",
@@ -24,7 +24,7 @@ export const SPICES: Spice[] = [
     desc: "Floral, warm and exotic. The soul of chai, biryanis and Swahili pilau.",
     longDesc: "Ground from the finest green pods — intensely floral, citrus-forward warmth with minty undertones. Indispensable in spiced tea, biryanis, rice dishes and Arabic coffee.",
     uses: ["Chai", "Biryani", "Pilau"],
-    p50: 110, p100: 195, rating: 4.9, reviewCount: 89, inStock: true, bestseller: true,
+    p50: 230, p100: 460, rating: 4.9, reviewCount: 89, inStock: true, bestseller: true,
   },
   {
     id: 4, name: "Cinnamon Powder", tag: "Aromatic", cat: "aromatic", emoji: "🤎",
@@ -32,7 +32,7 @@ export const SPICES: Spice[] = [
     desc: "Sweet, warming and comforting. Perfect in bakes, curries and spiced drinks.",
     longDesc: "True Ceylon cinnamon — sweet, delicate warmth far more nuanced than harsh cassia. Ground fresh to preserve its natural oils and complex sweetness.",
     uses: ["Baking", "Curries", "Drinks"],
-    p50: 95, p100: 170, rating: 4.7, reviewCount: 201, inStock: true, bestseller: false,
+    p50: 100, p100: 200, rating: 4.7, reviewCount: 201, inStock: true, bestseller: false,
   },
   {
     id: 5, name: "Coriander", tag: "Seed", cat: "seed", emoji: "🌿",
@@ -40,7 +40,7 @@ export const SPICES: Spice[] = [
     desc: "Citrusy, nutty and bright. A cornerstone of East African and Indian cooking.",
     longDesc: "Warm, nutty, citrusy flavour. Forms the backbone of most East African and South Asian spice blends — beautiful in meat rubs, chutneys and lentil dishes.",
     uses: ["Curries", "Chutneys", "Rubs"],
-    p50: 80, p100: 140, rating: 4.6, reviewCount: 175, inStock: true, bestseller: false,
+    p50: 75, p100: 150, rating: 4.6, reviewCount: 175, inStock: true, bestseller: false,
   },
   {
     id: 6, name: "Paprika Powder", tag: "Pepper", cat: "pepper", emoji: "🔴",
@@ -48,7 +48,7 @@ export const SPICES: Spice[] = [
     desc: "Sweet, smoky and vivid. Adds gorgeous colour and rich depth to any dish.",
     longDesc: "Sun-dried, slow-roasted red peppers ground to a fine, brilliant red powder. Adds warm sweetness and striking colour to rice, stews, chicken and grilled meats.",
     uses: ["Stews", "Rice", "Meat"],
-    p50: 85, p100: 150, rating: 4.8, reviewCount: 145, inStock: true, bestseller: false,
+    p50: 80, p100: 160, rating: 4.8, reviewCount: 145, inStock: true, bestseller: false,
   },
   {
     id: 7, name: "Cumin Powder", tag: "Seed", cat: "seed", emoji: "🟤",
@@ -56,7 +56,7 @@ export const SPICES: Spice[] = [
     desc: "Warm, earthy and smoky. Indispensable in stews, beans and grilled meats.",
     longDesc: "One of the most ancient spices in history. Warm, earthy, smoky depth that adds complexity to almost any savoury dish. Essential in githeri, grilled meats and dal.",
     uses: ["Beans", "Grilling", "Stews"],
-    p50: 80, p100: 140, rating: 4.7, reviewCount: 233, inStock: true, bestseller: true,
+    p50: 130, p100: 260, rating: 4.7, reviewCount: 233, inStock: true, bestseller: true,
   },
   {
     id: 8, name: "Ginger Powder", tag: "Root", cat: "root", emoji: "🫚",
@@ -64,7 +64,7 @@ export const SPICES: Spice[] = [
     desc: "Zingy, warm and aromatic. Elevates savoury dishes, spiced teas and ginger cake.",
     longDesc: "Plump rhizomes dried at low temperature to preserve volatile oils — a bright, pungent heat essential in masala chai, ginger biscuits and meat marinades.",
     uses: ["Tea", "Baking", "Curries"],
-    p50: 85, p100: 150, rating: 4.8, reviewCount: 198, inStock: true, bestseller: false,
+    p50: 100, p100: 200, rating: 4.8, reviewCount: 198, inStock: true, bestseller: false,
   },
   {
     id: 9, name: "Nutmeg", tag: "Aromatic", cat: "aromatic", emoji: "🌰",
@@ -72,7 +72,7 @@ export const SPICES: Spice[] = [
     desc: "Warm, sweet and slightly spiced — a finishing touch that elevates everything.",
     longDesc: "Use sparingly — its warm, sweet, slightly intoxicating depth transforms béchamel, spiced milks, baked goods and rice puddings.",
     uses: ["Baking", "Sauces", "Drinks"],
-    p50: 100, p100: 180, rating: 4.6, reviewCount: 67, inStock: true, bestseller: false,
+    p50: 150, p100: 300, rating: 4.6, reviewCount: 67, inStock: true, bestseller: false,
   },
   {
     id: 10, name: "Turmeric", tag: "Root", cat: "root", emoji: "✨",
@@ -80,7 +80,7 @@ export const SPICES: Spice[] = [
     desc: "Earthy, golden and powerful. Nature's anti-inflammatory superstar.",
     longDesc: "High-curcumin varieties ground to a brilliantly golden powder. Earthy, peppery flavour celebrated for powerful anti-inflammatory properties. Essential in rice, soups and golden milk.",
     uses: ["Rice", "Soups", "Golden Milk"],
-    p50: 80, p100: 140, rating: 4.9, reviewCount: 287, inStock: true, bestseller: true,
+    p50: 95, p100: 190, rating: 4.9, reviewCount: 287, inStock: true, bestseller: true,
   },
   {
     id: 11, name: "Fenugreek", tag: "Seed", cat: "seed", emoji: "🟫",
@@ -88,7 +88,7 @@ export const SPICES: Spice[] = [
     desc: "Bitter, maple-like warmth. The secret layer in spice blends, dals and pickles.",
     longDesc: "Distinctive bitter, maple-like flavour that adds incredible depth to slow-cooked dals, spice blends and pickles. Rounds out and deepens other flavours.",
     uses: ["Dals", "Pickles", "Blends"],
-    p50: 85, p100: 150, rating: 4.5, reviewCount: 44, inStock: false, bestseller: false,
+    p50: 90, p100: 180, rating: 4.5, reviewCount: 44, inStock: false, bestseller: false,
   },
   {
     id: 12, name: "Onion Powder", tag: "Root", cat: "root", emoji: "🧅",
@@ -96,6 +96,6 @@ export const SPICES: Spice[] = [
     desc: "Sweet, mellow and savoury. The secret weapon for deep flavour profiles.",
     longDesc: "Concentrated sweet-savoury onion flavour without moisture — perfect for dry rubs, spice blends, soups and any dish where you want onion depth without the texture.",
     uses: ["Marinades", "Soups", "Rubs"],
-    p50: 80, p100: 140, rating: 4.7, reviewCount: 156, inStock: true, bestseller: false,
+    p50: 80, p100: 160, rating: 4.7, reviewCount: 156, inStock: true, bestseller: false,
   },
 ];
