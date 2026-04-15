@@ -311,7 +311,7 @@ export default function HomePage({
 							View All 12 →
 						</Button>
 					</div>
-					<div className='grid grid-cols-4 gap-2.5 max-[1100px]:grid-cols-3 max-[700px]:grid-cols-2 max-[420px]:grid-cols-1'>
+					<div className='grid gap-2.5 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1'>
 						{featured.map((s, i) => (
 							<div
 								key={s.id}
